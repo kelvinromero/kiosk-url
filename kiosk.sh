@@ -5,7 +5,7 @@
 
 #Check for URL updates
 git pull
-url=$(cat address)
+url=$(cat /home/pi/kiosk-url/address)
 
 #Starts kioks
 `/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk $url`
