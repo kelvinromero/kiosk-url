@@ -1,8 +1,11 @@
 #!/bin/bash
 
-#Gets URL
-url=`curl https://raw.githubusercontent.com/KelvinRomero/kiosk-url/master/address`
+# Avoids crashed/recovered sessions
+killall chromium-browser
+
+#Check for URL updates
+git pull
+url=`cat address`
 
 #Starts kioks
 `/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk $url`
-

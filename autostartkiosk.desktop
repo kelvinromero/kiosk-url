@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=AutoStartKiosk
+Name[pt_BR]=AutoStartKiosk
+Comment=Inicia o Kiosk no startup
+Type=Application
+X-GNOME-Autostart-enabled=true
+Hidden=false
+Exec=/home/pi/kiosk-url/kiosk.sh
