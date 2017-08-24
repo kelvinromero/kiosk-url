@@ -8,4 +8,4 @@ git pull
 url=$(cat /home/pi/kiosk-url/address)
 
 #Starts kioks
-`/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk $url`
+`/usr/bin/chromium-browser --icognito --kiosk $url`
