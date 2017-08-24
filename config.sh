@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Cria arquivo
+# Desktop file
 file="~/.config/autostart/autostartkiosk.desktop"
 
 if [[ ! -f $file ]]; then
