@@ -16,9 +16,9 @@ if [[ ! -f $file ]]; then
 fi
 
 # Rotate display
-rotated=$(cat /boot/config.txt | grep display_rotate=3)
-if [ -z "$rotated" ]; then
-  echo "display_rotate=3" >> /boot/config.txt
-fi
+#rotated=$(cat /boot/config.txt | grep display_rotate=3)
+#if [ -z "$rotated" ]; then
+#  echo "display_rotate=3" >> /boot/config.txt
+#fi
 
 echo "Reinicie o sistema para efetuar as modificações!"
