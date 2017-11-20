@@ -11,7 +11,7 @@ killall chromium-browser
 git pull
 
 # if not pull from admin at local network
-get local_net_ip:80/address > /home/pi/kiosk-url/address
+# get local_net_ip:80/address > /home/pi/kiosk-url/address
 
 # Finally
 url=$(cat /home/pi/kiosk-url/address)
