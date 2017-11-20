@@ -3,7 +3,7 @@
 # Avoid crashed/recovered sessions
 killall chromium-browser
 
-wget -q --tries=10 --timeout=20 --spider http://github.com
+#wget -q --tries=10 --timeout=20 --spider http://github.com
 
 # Check internet connection
 # if sucessful pull data from github
